@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 //test123
 int day_of_the_year(int day, int month, int year)
 {
@@ -31,6 +32,7 @@ void input_date(int* day, int* month, int* year)
 int exist_date(int day, int year, int month)
 {
     if (year < 1582 || year>2400)
+
     {
         return 0;
     }
@@ -42,7 +44,9 @@ int exist_date(int day, int year, int month)
 
 int is_Leapyear(int year)
 {
-    if (year % 4 == 0)
+
+    if (year%4==0)
+
     {
         return 1;
     }
@@ -55,15 +59,17 @@ int is_Leapyear(int year)
 
 int get_day_for_month(int month, int year)
 {
-    int tage_pro_monat[12] = { 31,28,31,30,31,30,31,31,30,31,30,31 };
-    int checkLeap = is_Leapyear(year);
 
-    if (checkLeap == 1)
+    int tage_pro_monat[12]={31,28,31,30,31,30,31,31,30,31,30,31};
+    int checkLeap= is_Leapyear(year);
+
+    if (checkLeap==1)
     {
-        tage_pro_monat[2] = 29;
+        tage_pro_monat[2]=29;
     }
 
-    if (month > 12 || month <= 0)
+    if (month > 12 || month <=0)
+
     {
         return -1;
     }
@@ -78,6 +84,7 @@ int get_day_for_month(int month, int year)
 
 int main()
 {
+
 
     int jahr_eingabe = 0;
     int monat_eingabe = 0;
@@ -95,6 +102,7 @@ int main()
     printf("Ihre Gesamten Tage im Jahr bis Jetzt:\n");
     anzahl_tage_jahr = day_of_the_year(tag_eingabe, monat_eingabe, jahr_eingabe);
     printf("%i", anzahl_tage_jahr);
+
 
     return 0;
 }
