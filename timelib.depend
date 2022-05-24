@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1653381127 source:c:\users\ifa13.dhalshub\timelib_shubdeep\main.c
+1653381212 source:c:\users\ifa13.dhalshub\timelib_shubdeep\main.c
 	<stdio.h>
 	<stdlib.h>
 	<tsete.h>
@@ -9,7 +9,7 @@
 
 1653379707 c:\users\ifa13.dhalshub\timelib_shubdeep\include\test.h
 
-1653381126 c:\users\ifa13.dhalshub\timelib_shubdeep\include\tsete.h
+1653382229 c:\users\ifa13.dhalshub\timelib_shubdeep\include\tsete.h
 	<stdio.h>
 	<stdlib.h>
 

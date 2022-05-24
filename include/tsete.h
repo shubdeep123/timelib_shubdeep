@@ -16,13 +16,15 @@ int day_of_the_year(int day, int month, int year)
     int gesamtTageJahr = 0;
     for (int i = 0; i < 12; i++)
     {
-        if (i < month)
+        if (i < month && month-1 != i)
         {
             int tageMonth = get_day_for_month(i, year);
             gesamtTageJahr = gesamtTageJahr + tageMonth;
         }
 
+
     }
+
     return gesamtTageJahr + day;
 
 }
@@ -76,10 +78,10 @@ int get_day_for_month(int month, int year)
 
     if (checkLeap==1)
     {
-        tage_pro_monat[2]=29;
+        tage_pro_monat[1]=29;
     }
 
-    if (month > 12 || month <=0)
+    if (month > 12 || month <0)
 
     {
         return -1;
