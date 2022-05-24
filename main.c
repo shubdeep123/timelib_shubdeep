@@ -79,9 +79,6 @@ int get_day_for_month(int month, int year)
     }
 }
 
-
-
-
 int main()
 {
 
