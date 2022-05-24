@@ -1,15 +1,18 @@
 # depslib dependency file v1.0
-1653381212 source:c:\users\ifa13.dhalshub\timelib_shubdeep\main.c
+1653383598 source:c:\users\ifa13.dhalshub\timelib_shubdeep\main.c
 	<stdio.h>
 	<stdlib.h>
-	<tsete.h>
+	"tsete.h"
+	"Logik.h"
 
 1653379707 source:c:\users\ifa13.dhalshub\timelib_shubdeep\src\test.cpp
 	"test.h"
 
 1653379707 c:\users\ifa13.dhalshub\timelib_shubdeep\include\test.h
 
-1653382229 c:\users\ifa13.dhalshub\timelib_shubdeep\include\tsete.h
+1653383238 c:\users\ifa13.dhalshub\timelib_shubdeep\include\tsete.h
 	<stdio.h>
 	<stdlib.h>
+
+1653383467 c:\users\ifa13.dhalshub\timelib_shubdeep\include\logik.h
 

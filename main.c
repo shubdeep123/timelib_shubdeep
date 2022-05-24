@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <tsete.h>
+#include "tsete.h"
+#include "Logik.h"
 
 int main()
 {
     struct Date datum1;
     int checker = 1;
 
-    hallo();
     printf("Gebe den Tag ein!:\n");
     scanf("%i", &datum1.day);
     printf("Gebe den Monat ein!:\n");
